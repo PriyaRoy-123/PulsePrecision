@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Goudy+Bookletter+1911&family=Josefin+Sans:ital,wght@0,200;0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,600&family=Laila:wght@300&family=Miltonian+Tattoo&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Pattaya&family=Poppins:wght@200&family=Roboto+Mono:wght@300&family=Rubik+Wet+Paint&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Stop Watch</title>
+</head>
+
+<body>
+    <div id="containeUser">
+        <div id="textheading">
+            <h2>Provide Data For Future Record Thanks by Priya Kumari </h2>
+        </div>
+        <form action="#">
+            <input type="text" id="userName" placeholder="Your Name!">
+            <input type="button" value="Save" id="btnsave" class="btnuser" onclick="saveData()">
+            <input type="button" name="" id="btnsave" class="btnuser" onclick="displayHistory()" value="View Record">
+        </form>
+    </div>
+    <div id="containerwatchdata">
+        <div id="showDtaUser">
+            🔔
+        </div>
+        <div class="wrapper">
+            <div id="mainWrapper">
+                <h1>STOP WATCH</h1>
+                <div id="mainContainer" class="container">
+                    <div class="counterContainer" id="hourh">
+                        <h2 id="hours" class="stopwatch">0</h2>
+                    </div>
+                    <div class="counterContainer" id="minth">
+                        <h2 id="mint" class="stopwatch">0</h2>
+                    </div>
+                    <div class="counterContainer" id="seconfh">
+                        <h2 id="second" class="stopwatch">0</h2>
+                    </div>
+                    <div class="counterContainer" id="msh">
+                        <h2 id="milisecond" class="stopwatch">0</h2>
+                    </div>
+                </div>
+                <div class="container" id="headigData">
+                    <div id="headingHr">
+                        <h3>HR</h3>
+                    </div>
+                    <div id="headingMint">
+                        <h3>MT</h3>
+                    </div>
+                    <div id="headingSd">
+                        <h3>SD</h3>
+                    </div>
+                    <div id="headingMs">
+                        <h3>MS</h3>
+                    </div>
+                </div>
+                <div class="btnConatiner">
+                    <button id="startbtn" class="btnuse" onclick="start()">Start</i></button>
+                    <button id="pasuebtn" onclick="pause()">Pause</button>
+                    <button id="resetbtn" onclick="reset()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <h3>MADE BY Priya Kumari</h3>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

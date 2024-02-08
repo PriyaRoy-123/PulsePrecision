@@ -1,0 +1,264 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(138, 106, 162);
+    color: white;
+}
+
+form>input {
+    padding: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border: 2px solid rgb(22,45,88);
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.btnuser {
+    width: 9%;
+    font-style: italic;
+    cursor: pointer;
+    background-color: white;
+    color: brown;
+    margin: 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+#containeUser>form {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.counterContainer {
+    width: 20%;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+}
+
+#mainContainer,
+#headigData,
+.btnConatiner {
+    position: relative;
+    left: 15%;
+}
+
+#hourh {
+    border: 3px solid rgb(14, 13, 14);
+}
+
+#minth {
+    border: 3px solid rgb(30, 30, 30);
+}
+
+#seconfh {
+    border: 3px solid rgb(9, 9, 9);
+}
+
+#msh {
+    border: 3px solid rgb(28, 28, 29);
+}
+
+#headigData {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}
+
+.btnConatiner {
+    width: 70%;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#mainWrapper {
+    text-align: center;
+    width: 70%;
+}
+
+.wrapper>h1 {
+    text-align: center;
+}
+
+.btnConatiner>button {
+    color: white;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 15%;
+    font-size: 1em;
+    margin-left: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(52, 112, 190);
+    background-color: rgb(160, 161, 201);
+}
+
+#footer {
+    text-align: center;
+    width: 99.8%;
+    background-color: rgb(121, 164, 243);
+    padding: 1px;
+    margin-top: 70px;
+}
+
+#textheading {
+    width: 99.8%;
+    text-align: center;
+    background-color: rgb(77, 108, 245);
+    padding: 1px;
+}
+
+#showDtaUser {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+/*-----media query for tablet------*/
+@media only screen and (max-width: 768px) {
+  
+    .btnuser {
+        width: 100%;
+        margin: 3px;
+    }
+
+    .counterContainer {
+        width:20%;
+        font-size: 24px;
+    }
+
+    #mainContainer,
+    #headigData,
+    .btnConatiner {
+        position: relative;
+        left: 1%;
+    }
+
+    #mainContainer {
+        position: relative;
+        left: 15%;
+        width: 70%;
+    }
+
+    #mainWrapper {
+        width: 100%;
+    }
+
+    #container {
+        border: 1px solid;
+    }
+
+    #headigData {
+        position: relative;
+        left: 15%;
+        font-size: 1em;
+    }
+
+    .btnConatiner {
+        width: 90%;
+    }
+
+    .btnuse {
+        width: 100%;
+    }
+
+    .btnConatiner>button {
+        width: 20%;
+        font-size: 1em;
+        margin-left: 10%;
+    }
+
+    #footer {
+        font-size: 15px;
+    }
+
+}
+
+/*-----media query for mobile------*/
+@media only screen and (max-width: 600px) {
+
+
+    form {
+        width: 100%;
+    }
+
+    form>input {
+        width: 100%;
+        font-size: 15px;
+        margin: 4px;
+    }
+
+    .btnuser {
+        width: 100%;
+        margin: 3px;
+    }
+
+    #textheading {
+        font-size: 10px;
+    }
+
+    .counterContainer {
+        width: 40%;
+        font-size: 16px;
+    }
+
+    #mainContainer,
+    #headigData,
+    .btnConatiner {
+        position: relative;
+        left: 1%;
+    }
+
+    #mainContainer {
+        position: relative;
+        left: 15%;
+        width: 70%;
+    }
+
+    #mainWrapper {
+        width: 100%;
+    }
+
+    #container {
+        border: 1px solid;
+    }
+
+    #headigData {
+        position: relative;
+        left: 15%;
+        font-size: 1em;
+    }
+
+    .btnConatiner {
+        width: 90%;
+    }
+
+    .btnuse {
+        width: 100%;
+    }
+
+    .btnConatiner>button {
+        width: 20%;
+        font-size: 1em;
+        margin-left: 10%;
+    }
+
+    #footer {
+        font-size: 15px;
+    }
+}
