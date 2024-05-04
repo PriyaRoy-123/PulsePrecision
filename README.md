@@ -1,4 +1,4 @@
-PulsePrecision
+PulsePrecision: 
 This simple stopwatch application is built using HTML, CSS, and Javascript.
 Features
 Start: Start  the stopwatch.
